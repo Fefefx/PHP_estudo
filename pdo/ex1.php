@@ -1,7 +1,7 @@
 <?php
 
 //Cria uma conexão com o banco de dados usando de PDO
-$conn = new PDO("mysql:dbname=dbphp7;host=localhost", "root", "");
+$conn = new PDO("mysql:dbname=dbphp7;host=127.0.0.1", "root", "root");
 
 $smtp = $conn->prepare("SELECT * FROM tb_users ORDER BY deslogin");
 

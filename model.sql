@@ -1,3 +1,4 @@
+CREATE DATABASE dbphp7;
 use dbphp7;
 
 CREATE TABLE tb_users(

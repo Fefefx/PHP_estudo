@@ -1,7 +1,7 @@
 <?php
 
 //Cria uma conexão com um banco de dados.
-$conn = new mysqli("localhost","root","","dbphp7");
+$conn = new mysqli("127.0.0.1","root","root","dbphp7");
 
 //Verifica a existência de um erro.
 if($conn->connect_error){
