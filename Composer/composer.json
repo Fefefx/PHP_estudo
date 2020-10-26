@@ -1,0 +1,15 @@
+{
+    "name": "fefefx/php_estudo",
+    "description": "Aula de PHP 7",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Felipe Mantoan Pardim",
+            "email": "felipemantoan@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "monolog/monolog": "1.0.*"
+    }
+}
